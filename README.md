@@ -15,7 +15,7 @@
 ## <a name="OverviewProject"></a>Project Overview
 ### <a name="Background"></a>Background
 We can retrieve specific data from a website through an **Application Programming Interface** or **API**. API helps us to request data from a website or database server within the confines of the database rules. When we retrieve data from an API it is returned in a variety of formats. One of the most popular formats being **JSON (Java Script Object Notation)**. JSON has a heirarchial structure and stores meta data in multiple dictionaries or key:value pairs.
-<p align="center"> <img src = "Images/API.png" width ="70%"> </p>
+<p align="center"> <img src = "Images/API.png" width ="50%"> </p>
 
 ### <a name="Purpose"></a>Purpose
 **"Plan My Trip"** is a top travel technology company that specializes in internet related services in hotel and lodging industry. We will collect and present data for customers via the search page which they will then filter based on their preferred travel criteria in order to find their ideal hotel anywhere in the world. For this purpose I am using **Jupyter Notebook and Python CitiPy module** to get the cities from more than 500 random latitudes and longitudes. Then we perform requests on the **Open Weather Map API** and retrieve the JSON weather data for these cities. We map these cities using **Jupyter GMaps** and the **Google places API**. Next, we retrieve the nearby hotel information for the places selected by the user.
@@ -72,11 +72,11 @@ With the Jupyter gmaps module I plotted map with pop-up message that includes ho
 [1] [Code for creating the Weather Database](Weather_Database/Weather_Database.ipynb) <br>
 [2] [CSV file with Weather data](Weather_Database/WeatherPy_database.csv) <br>
 [3] [Code for Vacation Search](Vacation_Search/Vacation_Search.ipynb) <br>
-[4] [CSV file with Hotel Information](Vacation_Search/WeatherPy_vacation.csv)
+[4] [CSV file with Hotel Information](Vacation_Search/WeatherPy_vacation.csv) <br>
 [5] [Code for Vacation Itinerary](Vacation_Itinerary/Vacation_Itinerary.ipynb)  <br>
 
 [6] Software: 
-* Python 3.10.2
+* Python 3.10.2 <br>
 * Jupyter Notebook <br>
 
 [7] Dependencies:
@@ -84,19 +84,20 @@ With the Jupyter gmaps module I plotted map with pop-up message that includes ho
 * Matplotlib Library
 * Python CitiPy module
 * Python Requests
+
 [8] APIs
-* **Open Weather APIs** to retrieve weather data.
-* **Google Maps API** to create heat maps and retrieve information about hotels around the world.
-* **Google Directions API** Enabled this API to map the direction between 4 points.
+* **Open Weather APIs** to retrieve weather data. <br>
+* **Google Maps API** to create heat maps and retrieve information about hotels around the world. <br>
+* **Google Directions API** Enabled this API to map the direction between 4 points. <br>
 
 
 ## <a name="references"></a> References
-[OpenWeatherMap website](https://openweathermap.org/api)
-[Google Maps Platform website](https://mapsplatform.google.com/)
-[Documentation on Gmaps](https://jupyter-gmaps.readthedocs.io/en/latest/tutorial.html)
-[Google Nearby Search requests page](https://developers.google.com/maps/documentation/places/web-service/search#PlaceSearchRequests%0D%0A)
-[Place Types guide](https://developers.google.com/maps/documentation/places/web-service/supported_types)
-[gmaps documentation on how to add markers](https://jupyter-gmaps.readthedocs.io/en/latest/tutorial.html#markers-and-symbols)
+[OpenWeatherMap website](https://openweathermap.org/api) <br>
+[Google Maps Platform website](https://mapsplatform.google.com/) <br>
+[Documentation on Gmaps](https://jupyter-gmaps.readthedocs.io/en/latest/tutorial.html) <br>
+[Google Nearby Search requests page](https://developers.google.com/maps/documentation/places/web-service/search#PlaceSearchRequests%0D%0A) <br>
+[Place Types guide](https://developers.google.com/maps/documentation/places/web-service/supported_types) <br>
+[gmaps documentation on how to add markers](https://jupyter-gmaps.readthedocs.io/en/latest/tutorial.html#markers-and-symbols) <br>
 
 
  
